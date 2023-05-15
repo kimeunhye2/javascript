@@ -302,3 +302,15 @@ switch(grade){
     case 'E' :alert("다음학기 수강하세요");
     case 'F' :alert("알수없는 학점입니다.");
 }
+
+
+//증감연산자
+
+var num1=10;
+var num2=20;
+//  ++ --
+console.log(num1++); //후위,저장하고 중가 10 -> 11
+console.log(++num1);//선위,저장하고 중가 12  
+console.log(--num2); //19
+console.log(num2--); //19,18
+console.log(num2--);
