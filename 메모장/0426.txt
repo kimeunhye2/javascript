@@ -1,0 +1,129 @@
+http://border-image.com/
+
+그림자속성
+핸더프리픽스
+그라디언트
+변환속성
+애니메이션속성
+반응형웹구현속성
+flex
+다단속성
+테이블관련속성
+--------------------
+위치속성
+z-index
+overflow
+position
+float
+
+부트스트랩-css프레임워크
+사스 sass,less
+--------------------------
+
+javascript->레파지토리
+-------------------------------------------
+1)css파일 연결 링크
+2)reset.css
+3)image 연결
+
+도스명령어
+CUI 커맨드 -> 키보드
+GUI 환경 -> 마우스 인터페이스
+
+명령여
+윈도키|+R -> cmd -> enger
+
+DOS->빌게이츠가 대학교때 만든 운영체제
+도스->윈도우 95 98 2000 XP Vista Window7,10
+
+dir,
+윈도우 -> 폴더
+CUI ->디렉토리
+
+CD\ + ENTER -> C\루트 디텍토리
+D: + ENTER -> D드라이브로 이동
+cd -> change directory
+
+ex)cd hong -> enter
+cd
+폴더만들기 -> make directory
+md 홍길동
+cd 홍 -> tab ->자동완성
+
+cd.. ->상위 디텍토리로 이동
+cd ->현재디텍토리
+
+d\이름\htmlcss 로 이동해서
+code. 입력하고 엔터
+
+dir,md,cd,copy
+
+ipconfig 입력하고 엔터
+자기컴퓨터의 ip주소가 어떻게 됩니까?
+
+링크-로컬 IPv6 주소 . . . . : fe80::35ab:d22c:89e1:2ef%4
+   IPv4 주소 . . . . . . . . . : 192.168.0.9
+   서브넷 마스크 . . . . . . . : 255.255.255.0
+   기본 게이트웨이 . . . . . . : 192.168.0.1
+
+overflow:visible/scroll/hiddenauto
+overflow-x:scroll
+overflow-y:scroll
+
+[기본공식 3]
+자식박스에 position:absolute를 주면
+부모에는 높이 height값을 줘야한다
+
+[그림자속성]
+box-shadow 오른쪽 아래 흐림 색상
+text-shadow
+
+box-shadow: inset x y 흐림 퍼짐 색
+                 outset* 기본값
+내부그림자/외부그림자
+
+---------------------------------
+박스의 가로가운데 정렬
+박스의 세로가운데 정렬
+글자의 가로가운데 정렬
+글자의 세로가운데 정렬
+---------------------------------
+박스의 가로가운데 정렬:margin:auto;
+박스의 세로가운데 정렬:? 나중에
+글자의 가로가운데 정렬:text-align:center;
+글자의 세로가운데 정렬:
+부모박스의 높이와 line-height를 맞춘다.
+
+외부그림자 - outset
+내부그림자 - inset
+
+https://border-image.com/
+https://bestcssbuttongenerator.com/
+
+그라디언트
+css로 그라디언트
+
+css레이아웃방식
+1)float
+2)position
+3)flex
+4)grid
+
+세로네비게이션바
+
+display:none; ->
+ 애니메이션 타임지정이 안된다.
+transition:1s;
+opacity:0 -> 1
+height:0 -> 100px;
+ol -> height 해도 자식태그 li가
+보여요. overflow:hidden;추가 해준다.
+
+ul ->relative
+ ul ->li -> relative ->삭제
+  ol ->absoulute -> relative 공간을 차지한다.
+ ol>li -> relative ->삭제
+dl -> absolute
+
+자식이 absoule이고 부모가 absolute 이어도
+부모가 기준점이 될 수 있다.

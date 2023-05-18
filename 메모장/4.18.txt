@@ -1,0 +1,264 @@
+숨김처리
+스크린리더가 읽기위해
+화면에 숨기면
+스크린리더가 못 읽어
+aria-label="내용"
+aria-labelledy="내용"
+
+다음 컨벤션
+네이버 컨벤션 naver.convention
+구글 컨벤션
+
+1)CSS 입력방식
+2)CSS 선택자
+3)CSS 속성
+4)CSS 상속
+5)CSS 우선순위
+6)CSS 레이아웃
+7)CSS 동적인요소 구현(UI/UX구현)
+8)CSS 애니메이션
+9)CSS 관련공식
+10)CSS 호환성 구현
+
+인라인스타일 inline style->1000점
+
+p1,h1 {}
+콤마->다중선택자
+
+link.css
+
+프로젝트이름-html-css
+                       -imgs
+                       -js
+                      -font
+                      -lib 기타라이브러리
+
+CSS선택자
+1.전체선택자 *
+태그들은 기본적으로 margin, padding이라는 
+고유여백을 가지고 있다.
+css초기화를 통해 여백을 0으로 세팅처리한다.
+reset.css
+
+css 창시자인 에릭마이어 reset.css
+
+2)태그선택자(타입선택자)
+1점짜리
+
+3)클래스 선택자- 10점
+. 점
+중복선언이 가능하다.
+
+4)복합선택자
+h3;abc{ }
+h4.abc-> 11점=1+10
+ 
+5)아이디 선택자
+# 샵으로 식별자를 입력
+100점
+웹문서에서 하나만 선언이 가능하다.
+웹표준검사를 통해서 오류확인
+
+퍼블리셔는 클래스를 주로사용하고
+백개발자는 id와 name속성을 주로 사용한다.
+
+선택자의종류
+1)전체선택자
+2)태그선택자
+3)아이디
+4)클래스
+5)후손
+6)자손
+7)형제
+8)속성선택자
+9)구조선택자
+10)반응
+11)상태
+12)문자
+13)링크
+14)부정
+------------------------
+5)후손선택자 - 공백
+6)자손선택자 - > 크다기호
+
+ul>li*5>a[href=#]{menu$}
+
+a태그는 링크태그
+기본글자색은 파랑색에 밑줄
+
+color 글자색
+font-size 글자크기
+h1태그->32px
+p->16px
+h2->28px? 
+
+{
+    text-decoration: none;
+} ->밑줄제거
+
+여백의 미를 주기위해서
+margin,padding
+
+현재 a태그는 마진,패딩이 불안하게
+적용된다.
+
+li a { }
+li태그밑에 자손이나 자식 a태그를 선택하라
+li>a{}
+li태그에 자식태그 a를 선택해라
+ul>a{} 선택불가능
+ul태그바로 a라는 자식태그 존재하지 않는다.
+
+<ul>
+ <a href="#">링크</a>----x
+
+1depth 2depth 3depth
+ul>li>ul>li>ul>li>a { }
+
+좋은 방법은
+코딩은 중복제거
+유지보수가 용이하다.
+디버깅이 용이하다.
+
+[ naver html convention에서]
+
+html 태그에 대해서 10가지 이상 찾아서 정리해서 붙이기
+카페에 올리기
+
+네이밍 규칙도
+ 
+rest.css 별도로 만들어서 항상연결하기
+계속 업데이트 예정
+
+border-collapse: collapse;
+                      separate* 기본값
+
+속성선택자
+[class=box]{
+
+}
+.box
+[ ] 대괄호->속성
+[속성=값]
+
+박스자동으로 가운데 정렬하기
+margin:auto;
+글자가운데 정렬하기
+text-align:center
+
+rgba(red ,blue ,greem,alpha 투명도
+
+width:auto;?
+width:100% ?
+박스에 테두리를 주면 auto와 100%
+가 다르다는 것을 확인했습니다.
+
+
+div의 크기는 400+5*2=410
+p의 크기는 400+5*2=410
+
+100%는 부모크기에 맞춘다.
+auto는 부모박스안에 자동정렬
+
+input[type=text]{
+}
+input 태그중에 type 속성이 text
+인 것을 선택해라
+
+margin: 20px auto;
+            상하  좌우
+
+동위선택자(친구선택자) 
+A+B->A바로 다음에 나오는 B
+A~B->A이후에 나오는 B들
+
+스타일이 중복되면 마지막 코드가
+적용된다.
+
+a:hover 마우스 올릴때
+a:active 마우스 누르고 있을때
+a:link 링크기본상태
+a:visited 한번이상 클릭한 상태
+
+font-style:italic
+기울임꼴
+font-weight: bold
+진하게,굵은 글자
+text-decoration-line: line-through;
+취소선
+
+구조선택자
+  -일반구조
+     :first-child
+     :last-child(2)
+  -형태구조(타입구조)
+     :fist-of-type
+     :last-of-type
+     :nth-of-type(3)
+
+백문이 불여일견
+백견이 불여일행
+백행이 불여일작
+
+ol>li*7>a[href=#]{welcome$}
+
+a 태그는 inline->block 태그
+
+https://aboooks.tistory.com/category/html?page=6
+
+a 태그는 inline->block 태그
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

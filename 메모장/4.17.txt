@@ -1,0 +1,284 @@
+4월 17일 월요일
+HTML 태그실습
+1)글자관련태그
+2)링크태그
+3)목록태그
+  -순서있는 태그
+  -순서없는 태그
+  -용어정의형목록태그
+ 4)테이블태그
+5)폼태그
+6)시만틱태그
+7)블록레벨태그
+   <div/span>
+8)기타태그
+9)멀티미디어 관련태그
+img,video,audio,embed,object
+-----------------------
+1)글자관련태그
+    -제목,문단
+b,i,
+small,big
+sub,sup
+ins,del
+ruby
+abbr
+acrorym
+marquee
+mark
+q
+summary,address,cite
+xmp,pre,center,u,s,strike
+details,xmp
+
+lorem->enter->alt+z
+마우스로 드래그->alt+w 묶어주기
+
+ins->삽입,밑줄
+del->삭제 취소선
+ruby-> 윗주글자,외국어음표기,한자음표기
+ruby->rt+괄호
+
+
+한글입숨->검색
+
+abbr,acronym
+
+<ruby>
+    <span>大韓民國</span>
+    <rp>(</rp>
+    <rt>대한민국</rt>
+    <rp>)</rp>
+</ruby>
+루비태그가 지원안되는 브라우져를 위해
+대한민국(大韓民國)
+
+can i use
+abbr,	축약어,두문자어
+acronym
+q 인용구 <q cite="강남피부">두기 보라</q>
+quote
+blockquote
+
+ins,del,u,strike(비표준),s
+
+움직이는 글자-<marquee>
+형광글자<mark>
+center 비표준
+&lt; < less than
+&gt; > greater  than
+&ndsp; 공백
+&copy ⓒ
+&amp; &
+&raquo; > > 자세히보기
+&laquo; < <
+
+xmp= pre + 특수문자 섞어서 쓰기 태그말고(표준방식)
+
+<address> copyright All Right Reserved</address>
+    <p> p태그 안에 address는 포함 할 수 없다.<address>주소</address></p>
+    <address><p>address 태그안에 o 태그는 포함 할 수있다.</p></address>
+
+ul태그에 div나 p 같은 다른태그는 못 들어간다.
+il 태그에는 대체로 가능하다.
+<li> <li> </li> </li> xxxx
+<li><ol><li></li></ol><li> ooo
+
+a태그에서 특정목적지로 이동하는 기술
+id 방식,name 속성 방식
+
+#가상의 링크만 걸어도됨
+<h3 id="top">목적지</h3>
+<a href="#bottom"></a>
+<a href="bottom">목적지</a>
+name으로 목적지 설정은 a태그만 가능하다.
+id는 모든 태그를 사용한다.
+
+<a href="http://maps.google.com/maps?q=모란역z=16">지도보기</a>
+    <iframe src="http://maps.google.com/maps?q=모란역z=16"></iframe>
+
+지도 api 사용
+카카오맵 지도 api 사용하기
+
+6de8836398f42d1ed7bf0a07daf57923
+
+목록태그
+-순서있는태그
+-순서업는태그
+=용어정의형목록태그
+
+ul>il*5>a{href=#}{menu$}
+ctrl+spacebar->코드헌트
+
+디자인은ㅇ숨기는것이다.
+-그티브잡스 친구 디자이너 말씀-
+
+용어정의형 목록태그
+dl>dt+dd
+
+부모>자식1+자식2
+
+
+>는 상하관계 +는 형제관계
+
+definition list
+definition term
+definition description
+
+프로토타입 기반 언어
+
+img태그
+  placehold
+  dummyimage
+이미지가 없을 때 일단 레이아웃을 위해서
+자리배치만 한다.
+
+form태그
+input
+output 태그
+
+<form onclick="result.value=input.value">
+        <input type="range" name="input">
+        <output name="result"></output><b>점</b>
+    </form>
+
+onlick 할때 실행해라
+ <!-- 기본값은 20 -->
+
+폼태그에 들어가는 속성들
+type
+placeholder 안내문구
+readonly 읽기전용
+autofocus 커서자동포커스
+required
+min :number나 range의 최소
+max
+step
+value
+name
+minlength 최소입력글자
+maxlength 최대입력글자
+pattern
+enable/disabled
+multiple-리스트박스
+pattern-정규표현식,유효성검사
+
+
+글자에서 ctrl+/를 누르면 주석처리
+안될경우 한글입력모드가 달라져서 그렇습니다.
+ctrl+shift 누른상태에서 shift 키 한번 더 눌러보자 마이크로 키보드로 되있어야 주석처리됨
+ctrl+shift 누른상태에서 shift 키를 뺴자.
+모드 변경은 shift키로 변경한다
+
+style="overflow:hidden;"
+스크롤바 숨기는 css코드
+
+이메일주소
+aaaa@daum.net, bbbdaum.net
+동보메일
+
+pattern="\d(3)=\(3,4>-\d(4)"
+\아무글자
+d 숫자
+
+
+ 
+
+1) 숫자만 : ^[0-9]*$
+
+2) 영문자만 : ^[a-zA-Z]*$
+
+3) 한글만 : ^[가-힣]*$
+
+4) 영어 & 숫자만 : ^[a-zA-Z0-9]*$
+
+5) E-Mail : ^[a-zA-Z0-9]+@[a-zA-Z0-9]+$
+
+6) 휴대폰 : ^01(?:0|1|[6-9]) - (?:\d{3}|\d{4}) - \d{4}$
+
+7) 일반전화 : ^\d{2,3} - \d{3,4} - \d{4}$
+
+8) 주민등록번호 : \d{6} \- [1-4]\d{6}
+
+9) IP 주소 : ([0-9]{1,3}) \. ([0-9]{1,3}) \. ([0-9]{1,3}) \. ([0-9]{1,3})
+
+비밀번호 특수문자와 숫자포함
+정규표현식 비밀번호 관련 검색
+url검사
+
+1)비밀번호 특수문자와 숫자포함
+^[a-zA-Z\\d`~!@#$%^&*()-_=+]{8,24}$
+
+
+2)url 검사
+(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+
+
+<tbody>
+<tr>
+    <th>URL</th>
+    <td>
+        <input type="text" id="url" name="url"  class="form_field" style="width:400px;"/>
+    </td>
+</tr>
+</table>
+ 
+<div class="btn_w">
+    <input type="submit" id="Btn" value="등록" class="blueS" onclick="_onSubmit();" />
+    <a href="/good/test/list.do" class="grayS">취소</a>
+</div>
+
+
+3)이메일 검사-도메인주소 포함하는 것
+
+^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$
+
+4)한글영문숫자 포함하기
+/^[ㄱ-ㅎ가-힣a-zA-Z0-9]+$/;
+
+5)ip주소 v4,v6 :IP주소 v6 검사하기
+((^\s*((([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))\s*$)|(^\s*((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)?\s*$))
+
+http://regexr.com
+http://regexper.com
+
+aria-role="button:
+button 태그에는 사용할 필요없는데
+스크린리더가 버튼컨트롤임을 인식하게
+해주는 속성입니다.
+
+웹접근성
+
+aria-label="설명문구"
+<h1 role="button>버튼</h1>
+
+<input type="hidden"value="데이터">
+숨김처리
+
+시만틱 태그
+의미를 가지는 태그
+
+header
+section
+footer
+nav
+ariticle
+hgroup->제목태그 그룹화
+aside
+figure 이미지
+figurecaption
+
+ul>li*5>a[href=#]{menu$}
+emmet 기능
+
+number()
+parseint()
+
+줄바꿈태그
+<br> break
+<nobr> 
+<wbr> word break
+
+<svg>
+scaler vector graphic
+벡터그래픽

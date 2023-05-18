@@ -1,0 +1,80 @@
+고정형
+유동형
+반응형
+
+유동형을 flex를 사용하지 않는 기술?
+
+max-width:
+
+레이아웃관련
+#wrap
+#container
+#main_header
+#main_footer
+#main_content
+
+name속성 ->데이터바인딩
+
+좌측은 float left _> width 200px;
+우측박스는 유동형
+
+layout.css
+디자인과 구조를 분리하자
+
+아코디언
+
+어도비 컬러시스템
+
+한쪽고정 다른쪽은 유동
+1. calc()
+2. margin과 padding값을 조절--------
+margin-right: -200px;
+    width: 100%
+3.flex로 처리한다.
+
+디자인
+여백의 미,그룹핑
+선(테두리),배경색,글자폰트 크기
+여백
+
+가독성,심미성,
+독창성
+
+디자인격언
+디자인은 숨기는 것이다.
+추가하는것보다 빼는 것이 중요하다.
+
+<div id="menu1">
+<h2><a href="#menu1">메뉴</a></h2>
+
+홍길동의 아코디언 만들기
+홍길순
+
+codepen
+코드연습장
+
+라이트박스 플러그인-모달
+colorbox
+
+제이쿼리 라이브러리
+
+제이쿼리 라이트박스 사용법
+jacklmoore.com
+
+3개의 라이브러리 파일
+jquery.colorbox.js
+colorbox.css
+
+imges -> 만들고
+example1 폴더에 images폴더에 복사해서
+
+css폴더에 붙여넣기 해야된다
+colorbox.css있는 폴더에 붙이기
+
+data- 속성
+사용자 정의 속성
+data-
+data-role
+data-page
+
+무빙사

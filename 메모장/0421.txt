@@ -1,0 +1,190 @@
+4.21
+
+배경관련속성
+
+background-color:
+background-image:
+background-potition:
+background-attachment:
+background-repeat:
+
+background url("image")no-repeat fixed let top;
+
+background-size*
+background-origin
+background-clip
+
+(rgba(255.0.0.0.2)
+알파-투명도
+
+/* box-sizing: border-box
+테두리와 패딩이 width에 포함된다 */
+
+background-repeat:repeat* 기본값
+repeat-x/repeat-y/no-repeat
+가로반복 세로반복 무반복(이미지 하나만보임)
+
+background-positionleft top;
+left right top bottom center 100px 50%
+
+background-position*: fixed; / scroll;
+
+백ㅇ이미지는 테두리영역까지 걸쳐있다.
+fixed는 화면내에서 고정
+
+스타벅스 예
+
+background-origin:border box*
+padding-box
+content-box
+
+blackground:color url() left top scoll repeat;
+
+IR(Image Replacement) 기법은 이미지를 볼 수 없는 사용자에게
+ 적절한 대체 텍스트를 제공하는 것으로 이는 웹 접근성 준수를
+ 위한 스크린 리더 사용자뿐 아니라 검색 엔진의 효과적인 내용
+ 수집을 위해서도 필요하다.
+
+디자인을 위해서 이미지처리를 하고
+텍스트로 정보를 제공해준다. 글자태그를 이용해서
+스크린리더가 읽게 해준다.
+글자는 숨김처리해야 한다.
+
+background-size:100px 200px 100%
+                     cover, contain
+cover 이미지를 최대한 크게보여준다.
+        이미지가 짤릴수가 있다.
+contain: 이미지를 최대한 크게 보여주되
+잘리는 부분이 없고 동일한 비율유지 단지
+빈 여백이 생길 수 있다.
+
+스프라이트구현+IR기법
+
+ul>li*>a[href=#{템플릿}
+
+580x76
+
+숨김처리
+display:none;
+visibility:hidden;
+스크린리더는 인식을 못한다.
+
+1)text-indent-9999px;
+들여쓰기로 글자를 멀리 보낸다.
+박스속성에 줄수 있다.
+
+
+2)숨김처리해놓고
+aria-label="텍스트"
+aria-label-labelledby="설명문"
+
+span{text-indent:10px;} --------xxxx
+<p>대한민국</p>
+span을 박스처리하면 가능하다.
+
+bgp=> enter
+
+이미지파일 하나는 전송하면
+이미지헤더파일+이미지소스파일
+이 전송된다.
+파일1=헤더정보+이미지파일
+이미지 5개면 5개의 헤더정보와
+5개의 이미지파일이 전송된다.
+
+스프라이트 이미지로 처리하면
+헤더파일1+이미지파일1만
+전송된다.
+
+언어: 문법->기초예제->활용예제->응용예제
+syntax, 언어의 구조파악
+독해,작문
+처음페는 클론코딩 ㅟ주ㅜ로 공부 ...복붙
+파일로 정리하거나 ,개인블로그나 개인카페를 활용
+
+예제를 통해서 현재 트렌드
+소프트웨어는 버전에 민감해서 어렵다.
+교제보고할때 책은 2년전 프로그램이 업데이트?
+어떤 기술이 나오면 그 전 기술이 불편하기때문이다.
+
+var, let
+이쪽분야는 평생공부 살길
+
+css.emmet
+bgi
+bgz
+bga
+fz
+fs
+bgc
+
+display:flex;
+
+부모박스에 flex를 처리하고
+display:flex;
+자식박스에 flex:1 하면
+자동으로 넓이가 균등하게 처리된다.
+
+
+:root{
+변수들을 정의
+- -width:-50px;
+}
+
+html{}
+var()함수를 통해서 변수값을 불러온다
+
+div{
+--width50px, //지역변수
+}
+
+text-align:center/left/right/justify
+text-transform:uppercase/lowercase
+                    capitalize
+text-decoration:underline/oveline
+line-throught/none
+
+text-indent:들여쓰기
+letter-spacing:글자간격
+word-spacing;단어간격
+white-space:줄바꾸기
+word-wrap:줄바꾸기
+
+underline solid black;
+
+테두리 종류 속성
+solid dotted dashed double
+ridge groove inset outset
+
+/* 
+1)공백이 있으면 줄이 바뀐다.
+2)공백이 없으면 줄이 안바뀐다.
+
+
+3)공백이 있어도 줄이 안바뀐다.
+ white-space:nowrap;
+
+4)공백이 없어도 줄이 바뀐다. */
+word-break:break-all
+
+
+  /* 말줄임표 넣기 */
+  white-space:nowrap;
+  text-overflow:ellipsis; /*생략기호*/
+  overflow:hidden;  
+
+text-overflow:ellpsis/clip;
+글자가 넘치면:생략기호 줄거냐 자를거냐
+
+
+/*여러줄 말줄임표 넣기*/
+ display:-webkit-box;
+  -webkit-line-clamp:4;
+  -webkit-box-orient: vertical;
+  height:60px;
+ text-overflow:ellipsis; /*생략기호*/
+  overflow:hidden;
+
+letter-spacing;글자간격
+word-spacing 단어간격
+text-shadow
+text-stroke

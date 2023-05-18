@@ -1,0 +1,86 @@
+css 레이아웃 3번 -> 인터넷센터
+
+자동슬라이드
+롱버튼 기능 살리기
+
+픽사베이
+swiper slide에서 버튼 이미지 교체하기
+
+swiper-button-prev{
+배경이미지 처리하고}
+
+swiper-button-prev.after{
+content"; display:"none"}
+
+ezenmr.step.or.kr에 수강신청하기
+
+funciton() 
+함수 -> 일을 행해라
+
+$("close')hide();
+
+contact.html
+문의하기
+
+REST full service
+CRUD
+
+window.open()
+
+javascript.window open
+
+method 메소드
+행동
+function 함수
+
+고양이.먹다()
+객체.메소드()
+
+고양이가 생선을 먹는다.
+고양이.먹다("생선")
+object        인자,매개변수
+
+------------------------------------
+이름,이메일,
+보내실말씀 -> 키워드를 적고
+
+구글이나,네이버,다음에 검색어로
+검색하게 하기
+-------------------------------------
+
+URL과 URI 그리고 URN에 대해서 조사해보자.
+QueryString 쿼리스트링
+
+getParameter
+param
+getQuerystring
+q=html
+name=lee
+key=value
+
+신입사원면접문제
+인터넷 주소창에 url을 입력했을때 어떤현상이 일어나는가?
+
+코딩테스트문제
+
+우리가 마우스로 클릭하거나 주소창에 URL이나 URI를 입력하는 순간
+서버에 request가 발생이 되며, 서버는 그 request를 통해, response객체를
+통해서 클라이언트에 응답을 주게된다.
+클릭은 request객체에 요청하는 것이다.
+화면에 보여지게되면 response라는 객체가 클라이언트로 
+데이터를 전송하게 됩니다.
+
+eznmr.step.or.kr
+내일은 공공컨텐츠 수업
+
+map
+filter
+foreach
+
+onclick
+omouseover
+onmouseout
+onb
+
+
+

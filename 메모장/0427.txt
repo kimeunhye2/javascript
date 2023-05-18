@@ -1,0 +1,83 @@
+웹폰트
+아이콘폰트
+이모지
+emoji
+-------------------------------------------
+gmarket
+
+CSS로 외부요소 제어하기
+1):target 선택자 사용
+2)radio나 checkbox로 체크시
+형제나 자손을 선택해서 제어할 수 있다.
+input:check+div{ }
+3) 기타 애니메이션효과
+
+ㄱ+한자->탭 가운데점
+
+이모지 emoji
+
+https://symbl.cc/
+
+U+1F60E
+&#128526;
+\1F60E
+
+아이콘폰트 사용하기
+박스 가운데 정렬하기
+
+xeicon
+http://font
+
+1)CND방식
+2)다운로드
+3)설치방식- node.js
+
+xeicon.css -> 코드정렬된 파일
+xeicon.min.css->압축파일
+나중에 배포는 min으로 하는게 유리하다.
+
+http://m.gshop
+
+오후에는 쇼핑몰
+방금작업결과물 밑에 헤더부분만 작업해서
+붙여넣기
+
+쿠팡모바일
+
+margin:auto;
+*{ margin: 0 auto;}
+           위아래 마진은 0이고
+            좌우는 auto ->가로 가운데
+
+구조,레이아웃,스타일을 구분하자.
+
+글자의 수직중앙정렬 line-height로 지정
+
+1)
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+
+2)flex 
+margin:auto; 했기때문에 중앙으로 감
+
+3)
+display:flex;
+ justify-content:center;
+ align-items: center;
+
+모달팝업창
+ 
+css ->reset.css
+        index.css
+         main.css
+          sub1,sub2,sub3
+->css를 하나로 통합 ->sass ->common.css
+
+width %로 주고
+font-size:2vw~3vw
+min-width
+max-width
+
+https://cafe.daum.net/knyatom/OrWm

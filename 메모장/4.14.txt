@@ -1,0 +1,295 @@
+HTML 태그 위주로
+8교시
+사이드 메뉴
+지식팁
+알아두면 좋은사이트
+용어정리실습
+
+<table>
+<tr>
+    <th>제목필드</th>
+  <tb>데이터<td>
+</tr>
+</table>
+웹사이트의 전체의 layout 잡는 용도
+표용도->게시판의 글목록은 테이블로 제작
+
+tr->table row
+th->table header
+td->table data
+
+table 태그에 자식태그로 들어가는 태그들
+thread tr th td
+tbody tfoot
+caption
+colgroup
+col
+
+caption태그는 보통 숨김처리를 한다.
+
+tbody-<table body
+th-table header 필드
+굵은 글자, 가운데정렬
+
+td->보통글자, 왼쪽정렬
+
+table태그에 들어가는 속성들
+cellspacing
+cellpadding
+rowspan
+scope
+width,height
+walign align
+
+align=left/right/center
+속성이 빨간색이면 웹표준이 아니고
+나중에 CSS로 처리해라라고 생각하세요.
+
+cellspacing
+글자와 셀사이의 간격
+cellpadding
+셀과 셀사이의 간격
+
+테이블의 가로크기,세로크기
+세로크기는 신경안쓴다.
+가로크기가 중요하다.
+width
+셀의 가로크기,세로크기
+width,height
+
+colgroup
+col
+
+웹표준검사
+https://validator.kldp.org/
+
+https://validator.w3.org/
+
+border-spacing
+border-collapse
+
+scope 속성
+웹접근성을 위한 속성
+장애인용
+시각장애인,한손만있는사람
+청각장애인
+색대비,스크린리더가 친절하게 정보를
+알려주게끔 해야한다.
+
+7:1 이상 AAA
+4.5:1 이상 AA
+3:1 이상 A 글자크기가 18px 이상
+색대비검사
+
+emmet 기능
+extention -> html wrap
+
+html tag wrap->alt+w
+
+table>tr*5>td*5{국어}
+
+valign="top/middle/bottom"
+
+멀티미디어 관련 태그
+카페에  접속해서
+수업자료1
+파일공유->구글드라이브나 네이버 공유폴더 클릭
+
+html-imas->그림
+            ->multi 동영상, 음악파일
+
+전통적방식-레거지방식
+legacy
+
+embed.object
+html5에 새로 추가된 태그
+video audio
+
+비디오나 오디오파일은 자동재생을
+막아놨다.음소거 mute를 추가해야
+자동재생이 실행된다.
+브라우저마다 지원되는 파일형식이 다릅니다.
+mp4,ogg,webm(구글)
+
+type속성을 추가하면 브라우져가 타입을 알 수 있다.
+추가하지 않으면 브라우저가 무슨타입인지 분석한다.
+
+mp3,ogg,wav
+
+audio나 video태그에
+source태그를 여러개 넣은 이유는
+브라우저마다 지원되는 형식이 달라서
+똑같은 영상일 경우 파일형식을 달리해서
+크로싱브라우징을 높인것이다.
+
+영상의 개수는 video태그의 개수
+video태그가 2개면 영상이 2개
+
+-------------------------
+유튜브나 판도라TV
+영상소스의 링크복사해서 붙여넣기
+embed
+iframe
+
+iframe->insert frame
+frame 태그는 비표준
+<frame>
+vimeo/판도라tv/네이버tv
+
+iframe 태그 실습
+
+구글정책
+문서에 또다른 문서를 삽입하는 기능
+영상재생용으로 요즘 많이 사용한다.
+홈페이지에 페이스북화면삽입
+
+자막추가하기
+
+1)알드라이브로 검색 다운받고 설치하기
+2)dothome.co.kr 회원가입해서
+무료웹호스팅 신청
+3)알드라이브로 닷홈서버에 올려서 테스트하기
+
+알 FTP->File transfer protocol
+
+웹호스팅->무료호스팅
+2개까지 설치가능?->개인정보
+
+FTP아이디/로그인아이디 동일하게
+CMS 자동설치안함
+설치하면 워드프레스형태로 설치됨
+
+마이닷홈->상세보기->라디오버튼체크->상세보기
+기본도메인정보
+자기아이디.dothome.co.kr
+홍길동.co.kr->도메인구입 1년 2만원
+
+웹서버아이피를 복사 
+112.175.184.61
+
+알드라이브 실행->추가->
+호스트->자기 ip주소->아이디/비번
+닷홈아이디/닷홈비번->연결
+
+/->html 폴더 안에 작업물 올리기
+
+knyatom.dothome.co.kr->index html 열기
+phantom9512.dothome.co.kr/table.html
+
+카페->수업자료->3강
+
+form.html
+
+집을 짓는 재료
+벽돌,타일,철근
+
+폼을 만드는 재료
+form
+input
+textarea
+label
+fieldset
+legend
+select
+option
+
+method=get/post
+
+fieldset은 액자틀
+
+,<input type="text">
+input 치고 tab 키나 엔터
+label
+
+placeholder->가이드텍스트,안내글자
+
+드래그 -> alt + w 는 태그 감싸기
+
+label 태그 사용법
+1)명시적 방법 for속성 사용
+2)목시적방법 :label로 전체를 감싼다.
+
+보통
+ <label for="text">이름:</label>
+            <input type="text" name="name" id="name" size="10"><br>
+이렇게 씀
+
+input 태그에 type="text"
+size
+placeholder
+maxlength 최대글자
+minlength 최소글자
+
+get 방식은 쿼리스트링이 나온다.
+post방식은 쿼리스트링이 안나온다.
+
+required 필수입력 
+
+input:radio
+라디오 버튼은 name으로 그룹핑한다.
+
+checked 기본체크상태로 변환
+
+type:"email"
+selected->기본적으로 선택이 되어있다.
+
+input 태그에 들어가는 type
+text/password/checkbox/radio
+date/color/email/number
+range/search/tel/url
+tel/file
+
+textarea
+cos
+rows
+
+-------------------------------------
+file 전송시 enctype
+x-www-form-urlcode
+multipart/form-data
+파일이나 이미지보낼때 사용
+기본값
+
+
+text/plain:일반텍스트
+-------------------------------
+<button>전송</button>
+<input type="reset"value="다시쓰기">
+<button type="submit">전송</button>
+<input type="submit" value="전송>
+
+
+
+
+
+
+
+
+
+
+
+
+문자걸기
+전화걸기
+이메일보내기
+
+<a href="tel:010-333-4444">전화걸기</a><br>
+<a href="sms:010-444-5555">문자보내기</a><br>
+<a href="mailto:sefefwe@naver.com">이메일보내기</a><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

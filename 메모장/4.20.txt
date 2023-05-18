@@ -1,0 +1,84 @@
+4.20
+
+CSS선택자
+:cheched
+:focus
+:enebled
+:diabled
+:target
+
+:before
+:after
+:not()
+
+레이아웃
+동적인요소구현
+
+부트스트랩
+SASS 사스
+-------------------
+상태선택자와 형제선택자를 활용하여
+특정박스를 제어한다.
+-----------------------
+focus 커서가 놓은상태(탭키)
+                 활성화
+blur커서가 비활성화 상태
+css에는 없다.
+
+:enebled
+:diabled
+
+target 선택자를 활용한 탭메뉴 구현하기
+:after를 활용한 동적인 네비게이션 구현하기
+
+색상->#333,666,999 ccc 회색계열
+
+calc(100%/3)
+
+ul>li:not(:last-child){
+    border-right: 1px solid lightgray;
+마지막 빼고 오른쪽에 border를 주겠다
+
+:before
+특정요소의 앞부분
+:after
+특정요소의 뒷부분
+
+UI구현요소
+1)탭메뉴
+2)폴다운메뉴(드롭다운메뉴)
+3)아코디언
+4)이미지슬라이드
+5)팝업모달창
+6)풍선도움말
+7)가로세로 네비게이션바
+8)탭패널과 드로워
+9)고정 사이드 메뉴
+10)고정 네비게이션 바
+11)스크롤링 윈도우
+
+<div>
+ <img src=""<img src="">
+</div>
+
+<figure>
+ <img src=""><img src="">
+
+박스의 공간모델
+
+박스의 가로크기= width+ margin + border
+
+2)box-sizingborder-box
+가로크기=width+margin
+
+닷홈에 올려서 주소를 보내주세요
+별도로 폴더를 만들어서 폴더를 압축을 해서
+탭메뉴폴더-table.html-reset.css
+                           -style.css
+                           -img
+
+결과물을 만들어서 카페에 올려주세요.
+압축을 해서
+tab.html-reset.css
+          -sytle.css
+          img

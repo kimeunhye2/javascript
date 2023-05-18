@@ -1,0 +1,75 @@
+CSS관련 기본공식
+CSS 반응형웹
+
+table
+column
+아코디언/풍선도움말/스위치
+태블릿페이지/모바일페이지
+3d예제/css넘버링
+
+5월 12일까지
+CSS 관련수업
+SASS 부트스트랩
+
+대상주식회사
+
+
+표스타일속성 -table
+게시판/목록
+
+caption-side
+border
+border-collapse
+border-spacing
+empty-cells
+width,height
+table-layout
+text-align
+vertical-align
+
+caption 숨김처리
+
+표의 제목의 위치지정하기
+caption-side:top/bottom
+
+표의 테두리 넣기
+table
+td/th
+tr
+
+
+border-collapse:sepertate/collapse
+border-spacing:0
+empty-cells:show/how
+width,height
+
+table-layout.fixed/auto*
+
+display:none/block/inline/inline-block
+          flex/table/table-cell
+
+
+ul{
+    display: table;
+}
+ul li{
+    display: table-cell; padding:10px;
+}
+
+
+풍선도움말 예제
+스위치 예제
+
+
+fadein, fadeout 형태로 보이게 하기
+
+
+http://knyatom2.dothome.co.kr
+
+컴포넌트개념도입
+다른 레이아웃 복붙했을때 그대로 사용해야 한다.
+
+부트스트랩
+
+
+버전 5부터 제이쿼리5 지원안함

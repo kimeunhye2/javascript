@@ -1,0 +1,462 @@
+프런트앤드"+백앤드=4:6?
+2개월        3.5개월
+Node.js
+
+과정로드맵
+roadmap.sh
+
+snipaste.com
+캡쳐프로그램
+
+실행파일을 바탕화면에 바로가기 만들기
+아이콘을 더블클릭하여 우측하단에 실행중...
+
+f1-마우스 로 드래그 -f3
+
+로드맵사이트-> ex)프론트앤드 면 인터넷 - HTTP(cF
+
+HTML
+컴벤션
+웬 접근성과 웹표준
+SEO 검색엔진최적화
+
+프런트앤드
+자바스크립트
+
+백앤드
+자바
+
+웹디자이너->포토샵
+웹퍼블리셔->CSS
+웹트런트앤드->데이터바인팅,자바 스크립트
+Reeact  Vue, node.js
+
+백앤드->자바
+데이터베이스
+API 사용법,API 문서 읽는법
+-------------------------------------------------------
+배달 petch
+동기 와 /비동기/<데이터를 받아들이는 것
+ES5+ES6
+인터넷 익스플로러 문제?
+바벨? babel :최신버전의 자바스크립트를 익스에서 사용가능하다.
+-------------------------------------------------------
+기초반
+비전공자
+기본
+형상관리(SVN)
+컴퓨터작업 저장
+클라우드,카페,메일,구글 드라이브
+패키지->상품
+자바->그냥 폴더
+
+환경설정,
+ajax->api
+javascrip ajax
+jquery ajax
+
+CORS(Cross-Origin Resource Sharing)정책 
+도메인을 검사
+
+라이브러리 vs 프레임워크
+
+HTML 프레임워크
+CSS 프레임워크-부트스트랩
+자바스크립트 프레임워크
+자바프레임워크
+웹소켓->네트워크통신
+채팅->실시간 통신,주식거래
+
+크롬에서 F12 개발자 도구
+쿠키
+localStorage
+session
+sql
+
+제이쿼리는 자바스크립의 라이브러리
+react,vue 자바스크립트의 프레임워크
+
+자바프레임워-스프링
+플랫폼-기반시설
+
+color;red;
+
+클라이언트 사이드 렌더링
+<h1> welcom </h1>
+브라우저가 해석하는 화면에 보여준다.
+->렌더링
+브라우저마다 렌더링 방식이 달라서 그래서
+웹표준이 나오고, 해석방식이 달라서
+크로스브라우징(브라우저마다 테스트)
+인터넷익스플로러 딜레마
+
+서버사이드 렌더링(SSR)
+
+CSS preprocessors
+->CSS 전처리기
+SCSS ->sass
+러닝커브가 작다->html, css
+javascript
+1)화면 UI 동적인 화면설계
+2)데이터바인딩->API사용 ->ajax
+3)3파트 라이브러리 제작(써드파트)
+개발자들이 만든 라이브러리들
+
+backend
+
+형상관리 프로그램(svn)
+git-hub
+source.tree
+
+데이타베이스
+관계형데이터베이스-SQL
+비관계형DB->NoSQL
+
+java->sun마이크로시스템->Oracle인수
+
+로직설계
+CRUD
+REST full서비스
+게시판->creat,read,update,delete
+생서오,조회,수정,삭제
+
+소프트웨어개발자
+임데비드개발자-C,기계직접제어,어셈블
+게임개발자
+앱개발자
+웹개발자
+
+---------------------------------------------
+SQL 언어는 쉽다.
+
+정보요청방식
+get/post/put/delete
+
+http 웹프로토콜
+http://www.daum.net/search?q=손흥민
+
+
+http://www.google.co.kr/search?q=손흥민
+도메인/search?q=검색어
+
+https://search.naver.com/search.naver?query=손흥민
+?qurery=손흥민 ==>퀴리스트링 query string
+인터넷주소
+인터넷주소에 데이터를 실어보내서 보낸다.
+
+기본적인 도메인주소 www.naver.com
+파일주소,리소스주소 resource 주소
+www.naver.com/index.html
+www.naver.com/create->get mapping
+도메인_리소스파일명=쿼리스트링
+URI > URN->URL 구분하자
+
+CI/CD ->배포
+
+dir
+mkdir
+is
+cat
+type
+웹서버와 웹애플리케이션서버
+Websever      WAS
+아파치          아파치톰캣
+IIS 윈도우
+정적             동적-게시판
+
+mdn 인터넷
+라우터 장비
+ISP 인터넷 제공업자
+http://developer.mozilla.org/
+모질라
+자바스크립트 api 검색
+인터넷브라우저
+넷스케이프 네비게이터-파이어폭스
+인터넷익스플로러-마이크로소프트
+
+데이터가 다르다
+변환시켜줘야 한다 ->모뎀
+디지털박스
+modulation demonduation
+디지털신호->전기신호->디지털신호
+
+코딩언어
+http://learnxinyminutes.com/
+
+html-정보, 구조설계용
+css-디자인용
+
+웹표준과 웹접근성에 맞는 코드작성
+
+import 라이브러리를 가져온다.
+class
+static 특별한 존재
+public 누구나 쓰는 존재
+
+자바->웹에 접목->servelet, jsp, js-fl,el,
+스프링->jba
+node js
+
+less,scss ->css 전처리기
+
+php 개발자=웹퍼블리셔나 웹디자인
+연봉이 비슷
+워드프레스를 많이 사용한다.
+
+SQL에 내부조인,외부조인
+
+엑셀,엑세스
+xml,json
+
+안드로이드앱 프로그램->xml로 구조설계
+웹프로그램->HTML로 구조설계
+
+git
+Reposiltory
+commit
+pull
+push
+branch
+checkout
+
+개발환경-운영방식
+JQuery 딜레마->$()
+React/Vue를 사용하면 제이쿼리를 사용안한다.
+
+프로그램 설치
+visual studio->ms사에서 개발
+구글에서 만든 Bracket ->폐기
+insiders 버젼
+stable 버젼
+Window x64
+
+IDE 통합개발환경
+통합 개발 환경(IDE)이란 프로그래머가 소프트웨어 코드를 효율적으로
+개발하도록 돕는 소프트웨어 애플리케이션입니다.
+vs-code를 설치했다.
+
+vs-code 환경설정
+extention 설치
+file-<new
+
+작업폴더를 지정한다.
+file->open folder
+
+웹문서->html
+확장자가 .htm 이나 .html
+
+!->enter나 tab키
+emmet 기능
+
+ctrl + 더하기
+ctrl - 빼기
+ctrl , 콤마
+7시 방향에 톱니바퀴(환경설정)
+
+배경화면테마 바꾸기
+file->freference ->theme ->color theme
+우측은 미니맵이다.
+
+요번주까지는 이론수업+용어정리
+실습은 자바스크립트 먼저
+다음주부터 HTML, CSS
+
+웹문서에는 무조건 h1 제목하나 들어간다.
+<h1></h1>
+브라우저와 스크린리더가 제목이라고 읽어준다.
+
+윈도우탐색기
+live sever
+http://127.0.0.1:5500/0412.html
+localhost
+127.0.0.1->내 컴퓨터
+5500 ->포트번호
+0~
+
+
+ctrl+s -> 저장하기
+default
+preview
+browser
+
+코드정리하기
+beauty
+beautify
+alt+shift+f
+
+ctrl+/ ->주석문
+
+html 설명
+<!--    주석문   -->
+css 주석문
+
+/*  코드에 대한 설명   */
+브라우저가 건너뛰고 랜더링을 안한다.
+
+// 한줄 주석-자바스크립트 코드
+/*여러줄 주석
+
+style 태그는 body 태그 내부에 있으면
+실행은 되는데, 화면에 잘 나오지만
+웹표준이 아니다.
+
+alert("문자열")내장함수
+
+[ ] 옵션-해도 되고 안해도 되고
+
+window.alert(" ");
+;문장완성
+
+한줄 복사->ctrl+c ->ctrl+v
+alt+shift+위 아래 방향키
+
+alert() 함수 ->경고창 여는 함수
+"문자열"
+'문자열'
+쌍따옴표나 훗따옴표로 감싼다.
+alert("헬로우");
+; 세미콜론은 문장 마침
+엔터를 쳐서 줄바꿈해도 문장이 끝났음을 인식한다.
+
+컴파일오류 compile error
+->debugging 디버깅(오류 수정)
+벌레제거
+
+ctrl+s ->저장하기
+
+document -> body 태그
+문서
+
+브라우저에 body 태그 내부에
+감사합니다 라는 문자열을 출력해라
+document.write("감사합니다.");
+객체지향언어
+고양이가 생선을 먹는다.
+cat.먹다("생선");
+cat.eat("fish");
+cat 객체 ,eat 메소드(인자);
+                            아규먼트 argument
+
+브라우저화면에 내용을 컨텐츠라고 하는데 반드시
+어떤태그로 감싸져 있어야한다.
+
+콘솔에 기록해라
+console.log("welcome");
+alert("welcome")
+
+히스토리 기능->위쪽방향키/아래쪽방향키
+console.clear()
+
+결과는 같은데 방법이 다르다.
+자바스크립트는 동적으로 구현이 가능하다.
+body 태그에 입력하는 것은 정적인 데이터
+화면이고,
+버튼을 클릭하면 글자가 새로 생긴다.
+사용자가 입력하는 것은 하드코딩
+->노가다
+
+변수 ->어떤값을 저장하는 그릇
+메모리 공간을 나타낸다.
+값->문자,숫자,불리언,함수,배열,객체
+variable ->var
+
+
+var num=100;
+var num2=200;
+console.log(num+num2);
+
+=대입연산자
+
+"문자열"
+변수는 훗따옴표나 쌍따옴표를 감싸면 안된다.
+감싸면 문자가 된다.
+
+데이터(자료)를 저장하기 위해서 사용한다.
+
+(2+3)*4
+var sum=num+num2;
+num과 num2의 값을 더해서 sum에 저장하라.
+
+vs-code 도움말 끄기
+ctrl+, 콤마
+hover라고 검색
+Hover, Enabled 체크해제
+
+<h1>첫번째 제목태그</h1>
+h2 두번째 제목태그
+header의 줄임말
+
+
+h1~6까지 총 6가지 제목태그가 있다.
+
+메인타이틀
+부제목
+부부제목
+부부부제목
+
+font size:2em
+1em -> 16 픽셀(모니터 해상도)
+2em -> 32 픽셀
+1픽셀->모니터에 한점
+
+var num=100;
+var num2=200;
+sum=num+num2;
+
+문자열 연산
+str1
+num1 변수이름, 변수명
+
+숫자가 +를 만나면 더하기
+문자가 +를 만나면 연결이 된다.
+
+document.write("<h2>"+result+"</h2>");
+태그도 문자열이다
+
+p->paragraph
+h->header
+
+강제로 줄바꿈-> <br> break <-body에 붙여야지 적용됨
+space bar ->공백
+공백에 해당하ㅡㄴ 특수문자
+&nbsp;
+apm none breaking space bar
+
+alert("welcome to my world");
+br 태그 적용이 안된다.
+역슬래시(원표시) n 
+
+document.write는 줄바꿈 <br>
+
+\n ->escape 문자라고 합니다.
+
+document.write("<p>welcome to \"my\"world</p>");
+
+alert에
+쌍따옴표하고 훗따옴표를 문장중간에 표시해보자
+
+언어
+문법,구조
+숙어->api,콤포넌트
+
+구조분석능력
+응기응변
+디버깅
+설계능력
+
+자바스크립트
+클로저,상속,추상화,캡슐화
+
+자바
+추상화,캡슐화,상속,
+서버에서 동작
+
+----------------------------------------------------------------------------
+
+
+
+
+
+
+
+

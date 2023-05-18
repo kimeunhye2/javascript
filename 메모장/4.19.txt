@@ -1,0 +1,232 @@
+4월 19일
+
+[디자인]
+1달예상
+HTML 태그
+CSS
+부트스트랩-CSS프레임워크
+--------------------------------
+자바스크립트
+
+CSS 목차
+CSS 선택자
+CSS 속성들
+
+link.css
+
+noto sans-구글
+roboto
+NoToSeifCJKr
+
+폰트에 대한 세부속성들
+기울임 글꼴
+font-style:iltalic/normal
+font-variant:small-caps -작은 대문자
+                      nomal* *기본값
+font-weight:bold; 굵은글자
+font-size:20px; 글자크기
+line-height; 줄간격
+font-family:"궁서체".serif ;   글꼴
+
+통합속성
+font:style variant weight sizel/line-height family
+font:iltalic small caps bold 20px/1.5 "궁서체";
+font:iltalic 12px/24px "돋움";
+
+bold ->400 보통글자 700이상 굵은글자
+
+폰트명은 영문은 따옴표없이
+serif, Arial,
+공백이 있으면 따옴표처리
+"Times new Roman"
+한글글꼴도 따옴표처리
+
+line height:2 이면
+글자가 1 이면 줄크기는 글자의 2배
+가독성->1.6~1.8
+
+font 통합
+ 
+폰트
+시스템폰트
+웹폰트--★
+C:#windows
+
+라이브러리는 사용방법
+1)다운로드해서 연결하기
+2)CDN 방식
+인터넷주소로 링크걸기
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+css외부 파일 연결방식
+1)link태그를 head태그 중간에 삽입해서
+ src로 연결하는 방법
+2)@import url('파일명');
+head태그에 style 태그 안에 삽입하거나
+css파일 최상단에 삽입한다.
+
+@font
+@media
+@import
+@key-frames
+
+at-rules 구글에서 css @ -rules 검색
+fonts 다운로드해서 사용하기
+ttf/otf
+/woff
+나눔고딕 -eot,ttf,woff
+다옴체,네이버체
+나눔고딕다운받고 fon-face로
+연결해서 확인하기.
+
+preload
+preconect
+crossorigin 외부도메인허용
+
+css선택자 수업
+
+코드편집기
+eclipse -jsp
+intelij - 자바
+
+속성선택자
+ -기본속성
+ -문자열속성
+
+class="abcaaa bbb ccc"
+.aaa{}
+.bbb{}
+.ccc{}
+
+<p class="aaa" class="bbb"> 이건 안돼요
+<p class="aaa bbb"> 정상 표준상태
+
+문자열속성선택자
+~= 물결  => 공백
+|=  바 =>하이픈- 특정글자를 포함하느냐
+^=     => 시작
+$=      =>끝
+*=      =>포함
+
+-webkit-
+vendor prefix라고 하고
+브라우져 전용 접두사입니다.
+
+웹킷은 크롬브라우저 엔진이름이고
+엣지등이 채택하고 있다.
+
+text-stroke 만 적으면 스타일이 적용이
+안되고 -webkit-text-stroke를 붙여야
+한다.
+그외에
+-ms- 인터넷익스플로러
+-o- 오페라
+-moz- 파이어폭스
+-webkit- 크롬,엣지
+
+CSS상속
+CSS우선순위(구체성)
+
+CSS속성
+부모로 부터 물려받는 것
+부모태그로부터 자식태그로 전파되는 속성
+1)자동상속
+ 글꼴,배경색,글자색등이 자동상속
+2)수동상속
+그외 border,margin,padding, opacity 등
+자동상속되지 않는다.
+상속받을려면 inherit 태그 사용
+
+body태그에 글자색을 지정하면 그밑에
+태그들은 글자색이 변경된다. 다만
+a태그는 글자색이 변경되지 않는다.
+a태그는 글자색은 a태그를 바로선택해야 색적용됨
+아니면 a{ color:red; color:inherit;)
+
+a태그도 글자색을 상속을 받겠다.
+
+CSS가 중복될 경우 마지막 코드가 적용된다.
+
+
+dl>dt{ background: red;}
+dl>dt{ background: blue;}
+dt{ background: gray;}
+하면 gray로 바뀌지 않음
+dl>dt ->2점
+dt ->1점
+dt.aaa ->11점 ->gray로 바뀜
+#aaa -> 100점 ->yellow로 또 바뀜
+dt#aaa -> 101점 100+1 또 바뀜
+복합선택자
+dt#aaa.aaa ->또 바뀜
+복합선택자
+dt.aaa#aaa{ }
+
+alt+방향키 :  행 이동
+
+인라인스타일->1000점
+!important->만점
+
+
+:after
+:before
+:first-letter
+:first-line
+::selection
+
+1em=M의 글자크기 16px
+
+여백의미
+
+:first-letter
+:first-line
+::selection  ::두개 해줘야함
+
+word-break: break-all; 주로 한글이나 아시아권쓸 때
+강제로 줄바꿈
+
+글자간격맞추기 
+text-align: justify;     양쪽정렬
+word-break: break-all;문자를 강제로 줄바꿈
+
+
+/* 하이픈 넣기 */
+-webkit-hyphens: auto;
+hyphens: auto;
+white-space: normal;
+
+transition은 어떤 속성이 변경되면 시간설정을
+줘서 애니메이션효과를 줄 수 있다.
+1s; 1초  500ms, 0.5초
+:hover에 주면 호버에만 시간이 적용되고
+hover와 out 모두 적용할려면 원본에 transition을 적용한다.
+
+nav>ul>li*5>a[href=#]{축구}
+
+자식박스인 li 태그가 float처리되면
+부모박스인 ul 태그 높이가 깨진다.
+자식들이 도망가서..
+그래서부모박스의 ul의 
+nav>ul:after{
+    content: '';
+    display: block;
+    clear:both;
+}
+를 주면 부모크기가 유지가 된다.
+
+clearfix:after{content: '';
+    display: block;
+    clear:both;
+}
+
+
+
+
+
+
+
+
+

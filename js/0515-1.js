@@ -217,7 +217,7 @@ switch (true) {
 
     case 국어 >= 70:
         console.log("숫자가 아닙니다.");
-            ; break;
+        ; break;
     default:
         console.log("F학점입니다.");
         break;
@@ -226,33 +226,33 @@ switch (true) {
 // prompt로 네이버, 다음, 네이트, 구글을 입력하면
 // 해당사이트로 링크되게 해보자. switch문 활용
 
-var site=prompt("가고싶은 포털사이트?")
+var site = prompt("가고싶은 포털사이트?")
 var url;
 
-switch(site){
+switch (site) {
     case "네이버":
-    url="http://www.naver.com"; break;
+        url = "http://www.naver.com"; break;
     case "다음":
-    url="http://www.daum.net"; break;
+        url = "http://www.daum.net"; break;
     case "구글":
-    url="http://www.google.com"; break;
+        url = "http://www.google.com"; break;
     case "네이트":
-    url="http://www.nate.com"; break;
-    
+        url = "http://www.nate.com"; break;
+
     default:
         console.log("없는 사이트 입니다."); break;
-        
+
 }
-if(url) location.href=url;
+if (url) location.href = url;
 // 한줄은 중괄호 생략가능
 
-var x,y;
+var x, y;
 var input;
 
-input=prompt("정수를 입력하시오","정수로");
+input = prompt("정수를 입력하시오", "정수로");
 x = parseInt(input);
 
-input=prompt("정수를 입력하시오","정수로");
+input = prompt("정수를 입력하시오", "정수로");
 y = parseInt(input);
 
 document.write(x + y + "<br>");
@@ -267,47 +267,46 @@ function calc() {
     sum = parseInt(x) + parseInt(y);
     document.getElementById("sum").value = sum;
 }
-function fune(){
-    e=document.getElementById("test");
-    e.style.color="red";
+function fune() {
+    e = document.getElementById("test");
+    e.style.color = "red";
 }
-if (time<12)
-{
-	greeting="Good Morning!";
+if (time < 12) {
+    greeting = "Good Morning!";
 }
-if (time<12){
-    msg="good Morning";
-}else{
-    msg="good afternoon";
+if (time < 12) {
+    msg = "good Morning";
+} else {
+    msg = "good afternoon";
 }
-var msg="";1
-var time=new Date().getHours();
-if (time<12){
-    msg="good morning";
+var msg = ""; 1
+var time = new Date().getHours();
+if (time < 12) {
+    msg = "good morning";
 
-}else if(time<18){
-    msg="good afternoon"
+} else if (time < 18) {
+    msg = "good afternoon"
 }
-else{
-    msg="good evening";
+else {
+    msg = "good evening";
 }
 alert(msg);
 
 var grade = prompt("성적을 입력하시오.");
-switch(grade){
-    case 'A' :alert("잘했어요");break;
-    case 'B' :alert("좋은 점수군요");
-    case 'C' :alert("괜찮은 점수군요");
-    case 'D' :alert("좀더 노력하세요");
-    case 'E' :alert("다음학기 수강하세요");
-    case 'F' :alert("알수없는 학점입니다.");
+switch (grade) {
+    case 'A': alert("잘했어요"); break;
+    case 'B': alert("좋은 점수군요");
+    case 'C': alert("괜찮은 점수군요");
+    case 'D': alert("좀더 노력하세요");
+    case 'E': alert("다음학기 수강하세요");
+    case 'F': alert("알수없는 학점입니다.");
 }
 
 
 //증감연산자
 
-var num1=10;
-var num2=20;
+var num1 = 10;
+var num2 = 20;
 //  ++ --
 console.log(num1++); //후위,저장하고 중가 10 -> 11
 console.log(++num1);//선위,저장하고 중가 12  

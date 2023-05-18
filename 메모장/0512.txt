@@ -1,0 +1,39 @@
+sass
+gulp 자동화툴
+live sass coompiler
+
+column-width
+column-count
+column-gap
+column-rule
+column-span:all
+
+colum-rule-style-solid
+colum-rule-color:red;
+colum-rule-width:2px;
+colum-width:2px solid;
+
+column-span:all
+--------------------------------
+SVG 애니메이션-차트
+
+adobe
+피그마,XD,스케치(맥용)
+
+재플린
+
+면색,선색
+
+반지름 50
+원의둘레 = 2 파이 * 반지름
+               2 * 6 * 50 = 600
+
+stroke-dasharray는 선을 대쉬 형태로 만든다.
+
+재플린 검색
+디자인가이드라인
+
+롤오버이미지
+롤오버텍스트
+
+amchart

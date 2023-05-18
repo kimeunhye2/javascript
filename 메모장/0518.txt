@@ -1,0 +1,112 @@
+string()
+Ararry()
+Date()
+Mesh.sin()
+Number()
+
+var str="welcome"; //원시타입
+var str=name String("welcome");    -----인스턴스
+
+생성자함수는 항상대문자로 시작한다.
+
+----------------------------
+
+var add=(
+function(){ }
+
+)(매개변수,변수2);
+
+콜백함수 : 다음에 실행할 함수
+어떤 일이 수행되고, 그 다음에 실행되는 함수.
+
+함수의 매개변수가 함수인 경우
+->콜백함수
+
+forEach(function(){};
+
+매개변수로 들어가는 함수는 괄호를 제거한다.
+
+함수(); ->그 함수의 return값이 출력된다.
+
+callback 콜백
+
+통신,
+동기방식
+비동기방식
+
+https://jsonplaceholder.typicode.com/
+
+var 배열 = []
+var 배열 = [{},{},{}]
+배열객체
+JSON 자바스크립트 객체표기법
+xml
+csv
+txt
+
+user[0].title
+
+fetch(),then(),then()
+
+컬렉션 ->객체의 배열
+
+isNan() 숫자가 아니다..
+
+순수배열.forEach(요소,인덱스)=>
+Array.from(li).forEach((ele) => {
+    ele.style.textAlign = "center"
+});
+
+li -> html 컬렉션 배열(유사배열)
+
+html 컬렉션 배열을 순수배열로 바꾸기
+자바스크립트에서 객체를 배열로 바꾸기
+
+innerHTML -> html
+textContent -> text
+length
+item(i)
+childNodes
+chidren
+firstchild
+lastChild
+nextSibiling
+class.ist
+parentElement
+parentNode
+nodeType
+class
+className
+previousSibling
+classList
+
+nodeType
+태그 ->1
+속성 ->2
+텍스트 ->3
+
+<h2 title="title">text</h2>
+
+nextElementSibling은 다음형제요소
+fistElenentChild 첫번째 자식태그
+
+childElementCount
+자식요소의 개수
+
+.class.List.add(), 클래스추가
+.class.List.remove() 클래스 제거
+
+객체.id
+객체.title
+header.src
+img.src
+img.alt
+
+이벤트타겟.addEventListener(이벤트타입,리스너)
+이벤트타입->click.mouseover,
+리스너->콜백함수,
+
+스타크래프트
+테란
+ 마린(model,fire,color)
+ 메딕(model,cure,gender)
