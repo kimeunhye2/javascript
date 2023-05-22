@@ -18,14 +18,11 @@ function hide(){
 function show(){
     img.style.visibility="visible";
 }
-var changeStyle=()=>{
-var h2=document.querySelector('h2');
-h2.style.background="pink";
-h2.style.fontStyle="italic";
-h2.style.color="red";
-h2.style.fontSize="30px";
-h2={
-background:"pink",
-fontSize:"italic",
-}
+function changeStyle(){
+    var h2 = document.querySelector('h2');
+    h2.style.background="pink";
+    h2.style.fontStyle="italic";
+    h2.style.color="red";
+    h2.style.fontSize="30px";
+   
 }
