@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+    <script>
+        window.onload = function () {
+            var input_1 = document.querySelectorAll('input')[0];
+            var input_2 = document.querySelectorAll('input')[1];
+
+            input_1.onkeydown = function () {
+                if (6 <= input_1.value.length) {
+                    input_2.focus();
+                }
+            }
+            input_2.onkeydown = function (event) {
+                var event = event || window.event;
+                if (event.keyCode == 8 && input_2.value.length == 0) {
+                    input_1.focus();
+                }
+            };
+        };
+    </script>
+    <script type="text/javascript">
+        window.onload= function(){
+            var form1= document.f1
+            var form2= document.f2
+            var eventObj;
+            document.onmousemove=function(e){
+                eventObj=e?e:window.event;
+                var cx=eventObj.clientX;
+                var cy=eventObj.clientY;
+                form1.client_x.value=cx;
+                form1.client_y.value=cy;
+
+                var px=eventObj.pageX;
+                var py=eventObj.pageY;
+                form1.pg_x.value=px;
+                form1.pg_y.value=py;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <input type="text" maxlength="6">
+    <span>-</span>
+    <input type="text" maxlength="7">
+
+    <div id="wrap">
+        <h1>마우스 이벤트 객체 속성</h1>
+        <form action="#" method="get" name="f1">
+            <fieldset>
+                <legend>커서위치추적</legend>
+                <p>
+                    <label for="client_x">client_x</label>
+                    <input type="text" name="client_x" id="client_x">
+                </p>
+                <p>
+                    <label for="pg_x">pg_x</label>
+                    <input type="text" name="pg_x" id="pg_x">
+                </p>
+                <p>
+                    <label for="client_y">client_y</label>
+                    <input type="text" name="client_y" id="client_y">
+                </p>
+                <p>
+                    <label for="pg_y">pg_y</label>
+                    <input type="text" name="pg_y" id="pg_y">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>

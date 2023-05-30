@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트모델</title>
+    <style>
+        div,span,button{
+            border: 1px solid;
+            padding: 10px;
+            display: block;
+        }
+    </style>
+
+
+
+
+</head>
+<body id="body">
+    <h1> 이벤트 위임(delegation)</h1>
+    <h2>이벤트흐름이 이벤트캡쳐링, 버빌링단계를 거친다.</h2>
+    <div id="div">
+        <span id="span">
+            <button id="btn">버튼</button>
+        </span>
+
+
+    </div>
+<script>
+    window.onload =function(){
+
+        var count = 0;
+        var img = document.getElementById('image');
+        var frames= [
+            '1.jpg','2.jpg','3.jpg','4.png','5.jpg','6.png','7.jpg',
+            '8.jpg','9.png','10.g'
+        ];
+
+        // 타이머 반복을 시작합니다.
+        setInterval(function(){
+            image.src = "imgs/"+frames[count % frames.length];
+            count = count +1;
+            img.width=200;
+            img.height=200;
+        },1000);
+
+
+    }
+</script>
+<img id="image" >
+<h2>mouseover와 mouseenter</h2>
+<div class="outer">
+    <div class="inner"></div>
+</div>
+
+
+
+
+<style>
+    .outer{
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+    }
+    .inner{
+        width: 80%;
+        height: 60%;
+        border: 1px solid;
+    }
+</style>
+
+
+</script>
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/event-2.js"></script>
+</body>
+</html>

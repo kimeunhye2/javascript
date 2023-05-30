@@ -15,7 +15,7 @@
     // 이벤트버블링 : 자식->부모
     // 이벤트캡쳐링 : 부모->자식
     // eventPhase
-
+ 
     // button.addEventListener('click',function(e){
     //     console.log(e.eventPhase)
     // },false)
@@ -52,7 +52,7 @@
     // 이벤트버블링제거
     // 익스플로러->event.cancelBuble=true
 
-    a.onclick = function (e) {
+    a.onclick = function (e) { 
         this.style.background = " gold ";
         e.stopPropagation();
     }
