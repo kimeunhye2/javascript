@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style01.css">
+
+</head>
+
+<body>
+
+    <h2> Clickable Dropdown</h2>
+    <div class="dropdown">
+        <button onclick="dropdown('menu1')" class="dropbtn">dropdown</button>
+        <div id="menu1" class="dropdown-content">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </div>
+        <button onclick="dropdown('menu2')" class="dropbtn">dropdown</button>
+        <div id="menu2" class="dropdown-content">
+            <a href="#home">home2</a>
+            <a href="#about">about2</a>
+            <a href="#contact">contact2</a>
+        </div>
+    </div>
+    <script>
+        // function car() {
+        //     var basic_car = Number(document.getElementById("total").defaultvalue);
+        //     // 체크박스에 체크하면 opt1-opt3까지의 값을 누적시킨다.
+        //     for (var i = 1; i <= 3; i++) {
+        //         var chk = document.getElementById("opt" + i);
+        //         if (chk.checked) basic_car += parseInt(chk.value);
+        //     }
+        //     document.getElementById("total").value = basic_car;
+        // }
+
+
+
+
+
+
+
+        // function car() {
+        //     var basic_car = Number(document.getElementById("total").defaultValue);
+        //     for (var i = 1; i <= 3; i++) {
+        //         var chkObj = document.getElementById("opt" + i);
+        //         if (chkObj.checked)
+        //             basic_car += parseInt(chkObj.value);
+        //     }
+        //     document.getElementById("total").value = basic_car;
+
+
+        //     document.getElementById("total").value = basic_car;
+        //     var ten = Number(document.getElementById("total").value);
+        //     console.log(ten);
+        //     document.getElementById("total").value = ten.toLocaleString('ko-KR');
+        //     console.log(ten.toLocaleString('ko-KR'))
+        //     console.log(navigator.language)
+        // }
+
+
+        function dropdown(x){
+            document.getElementById(x).classList.toggle('show');
+            //add, remove ,toggle
+
+        }
+        //바탕을 클릭하면 메뉴숨기기
+        window.onclick=function(){
+            // dropbtn을 제외한 이벤트가 걸리면 show를 제거해라
+            if(!event.target.matches('.dropbtn')){
+            var dropContent=document.getElementsByClassName('dropdown-content');
+            for(var i=0; i<dropContent.length; i++){
+                if(dropContent[i].classList.contains('show')){
+                dropContent[i].classList.remove('show');
+                }
+            }
+        }
+    }
+    </script>
+</body>
+
+</html>
