@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/0612.js"></script>
+</head>
+
+<body>
+    <h1> 문서객체이동 </h1>
+    <div id="box">
+    <img src="./imgs/1.jpg" >
+    <img src="./imgs/2.jpg" >
+    <img src="./imgs/3.jpg" >
+    <img src="./imgs/4.png" >
+    <img src="./imgs/5.jpg" >
+</div>
+<h1> 문서객체복제 </h1>
+<script>
+    $(document).ready(function(){
+        $('img').css('width','250px').css('height','200px');
+    //     setInterval(()=>{
+    //         $('img').first.appendTo('#box');
+    //     },2000);
+    // })
+
+    setInterval(function(){},2000);
+    setInterval(move,2000);
+    // 매개변수(파라미터)는 전달,연결해주는 역할
+    // 호출()은 실행한다.
+    // function move(){
+    //     $('img').first().appendTo('#box');
+    // }
+    // 문서객체복제 - clone()
+    setinterval(()=>{
+        $('#box').append($('img').first().clone());
+    },5000)
+
+
+
+
+});
+</script>
+</body>
+
+</html>
